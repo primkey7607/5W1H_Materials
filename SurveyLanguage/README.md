@@ -3,10 +3,10 @@ In this directory, we include a pdf of the text we used for our survey, which we
 We list and explain each block here, and then we explain the survey flow, which cannot be seen from the pdf.
 To summarize, participants were first shown the IntroBlock. Then, they were randomly assigned one of three mental model blocks, datahubModel, 5W1HDataCatalog, or GoogleDataCatalog blocks, each of which contained mental models, and some subset of the data questions displayed in Table 1 of our paper. For this subset of questions, they were asked to choose a mental model concept and rate the difficulty of making this choice.
 
-## Consent Form
+## Consent Form (pg 1)
 We, of course, displayed a consent form to participants, as required for IRB approval. Most notably, we are not allowed to release the raw results, which is why we are only posting our aggregate results here.
 
-## IntroBlock
+## IntroBlock (pgs 1-7)
 In this block, we asked questions to screen participants for familiarity with data science and/or databases in order to avoid spurious answers due to a lack of familiarity with the context of our survey, which was storing and retrieving metadata from data catalogs.
 Specifically, if participants answered "None of the Above" for how they would characterize their interactions with datasets and databases, or they answered "I rarely download datasets or process data", we excluded these participants from our analysis.
 
@@ -16,7 +16,7 @@ If participants chose "Google's Data Catalog" and were then assigned the GoogleD
 We then displayed our list of questions from Table 1 of our paper and asked users to rate their familiarity with each of these questions. If a participant responded "I do not understand this question" to any question, they were not shown that question when assigned one of the blocks with the mental models.
 As a result, participants were only shown questions for which they had a minimum level of familiarity.
 
-## Mental Model Blocks
+## Mental Model Blocks (7-end)
 We randomly displayed one of three mental model blocks to survey participants: datahubModel (containing the Datahub Mental Model), 5W1HDataCatalog (containing the 5W1H+R Mental Model), or GoogleDataCatalog (containing the Google Cloud Service (GCS) Mental Model).
 
 In each of these blocks, we explained the participant's task using language they could understand even if they had not directly used a data catalog before. 
@@ -28,11 +28,11 @@ For each question, we asked them to choose the concept that best described the a
 
 Note also that before displaying the full subset of questions, we displayed two example questions and answers (choices of concepts) to help participants understand their task better.
 
-### datahubModel
+### datahubModel (pgs 7-13)
 In this block, we displayed Datahub's mental model to participants, following the structure above.
 
-### 5W1HDataCatalog
+### 5W1HDataCatalog (pgs 13-19)
 In this block, we displayed the 5W1H+R mental model to participants, following the structure above.
 
-### GoogleDataCatalog
+### GoogleDataCatalog (pgs 19-25)
 In this block, we displayed the GCS mental model to participants, following the structure above.
