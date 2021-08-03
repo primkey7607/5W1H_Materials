@@ -19,12 +19,13 @@ As a result, participants were only shown questions for which they had a minimum
 ## Mental Model Blocks
 We randomly displayed one of three mental model blocks to survey participants: datahubModel (containing the Datahub Mental Model), 5W1HDataCatalog (containing the 5W1H+R Mental Model), or GoogleDataCatalog (containing the Google Cloud Service (GCS) Mental Model).
 
-In each of these blocks, we displayed a mental model example first, to help participants understand how to read our mental model diagrams, which consisted of concepts, their definitions, and their relationships to other concepts.
-We then explained the participant's task using language they could understand even if they had not directly used a data catalog before.
+In each of these blocks, we explained the participant's task using language they could understand even if they had not directly used a data catalog before. 
+We then displayed a mental model example first, to help participants understand how to read our mental model diagrams, which consisted of concepts, their definitions, and their relationships to other concepts.
 
 Then, we displayed the mental model itself, and the subset of data questions participants claimed at least a minimum familiarity with, according to their responses in the IntroBlock.
 
 For each question, we asked them to choose the concept that best described the answer to the question, and then we asked them how difficult it was to make that choice. Note that we used the language "How difficult did the catalog make it..." instead of asking "How difficult was it to choose a concept..." to avoid reactivity effects (e.g. participants choosing a low difficulty rating because they feel they would be perceived as less intelligent if they chose otherwise).
+Note also that before displaying the full subset of questions, we displayed two example questions and answers (choices of concepts) to help participants understand their task better.
 
 ### datahubModel
 In this block, we displayed Datahub's mental model to participants, following the structure above.
