@@ -25,6 +25,7 @@ We then displayed a mental model example first, to help participants understand 
 Then, we displayed the mental model itself, and the subset of data questions participants claimed at least a minimum familiarity with, according to their responses in the IntroBlock.
 
 For each question, we asked them to choose the concept that best described the answer to the question, and then we asked them how difficult it was to make that choice. Note that we used the language "How difficult did the catalog make it..." instead of asking "How difficult was it to choose a concept..." to avoid reactivity effects (e.g. participants choosing a low difficulty rating because they feel they would be perceived as less intelligent if they chose otherwise).
+
 Note also that before displaying the full subset of questions, we displayed two example questions and answers (choices of concepts) to help participants understand their task better.
 
 ### datahubModel
