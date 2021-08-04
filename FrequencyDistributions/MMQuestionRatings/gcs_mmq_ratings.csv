@@ -1,0 +1,28 @@
+Question Number,Question Text,Very Easy,Easy,Moderate,Difficult,Very Difficult
+Q1,"""For what purpose was the dataset created?""",1,5,18,11,6
+Q2,"""Are there tasks for which the dataset should not be used?""",3,6,12,13,6
+Q3,"""Who created the dataset?""",4,7,11,9,10
+Q4,"""Who was involved in the data creation process?""",4,10,13,5,8
+Q5,"""How can the owner/curator/manager of the dataset be contacted?""",4,11,10,8,7
+Q6,"""What are the privacy and legal constraints on the accessibility of the dataset?""",1,4,13,12,9
+Q7,"""Is there an access control list for the dataset?""",5,4,13,7,5
+Q8,"""What is the reputation of the creator of a dataset?""",6,5,14,5,8
+Q9,"""What do the instances of the dataset represent?""",2,2,12,9,7
+Q10,"""What is the size of the dataset?""",2,2,17,15,5
+Q11,"""Are there errors in the dataset?""",2,5,8,15,10
+Q12,"""Does the dataset have missing values?""",2,4,7,18,8
+Q13,"""What is the domain of the values in this dataset?""",2,5,12,5,11
+Q14,"""If the dataset is a sample of a larger dataset, what was the sampling strategy?""",1,6,12,11,8
+Q15,"""Does the dataset contain personally identifiable information (PII)?""",6,9,11,6,8
+Q16,"""What is the quality of the dataset?""",3,7,11,7,11
+Q17,"""Was any preprocessing/cleaning/labeling of the dataset done?""",3,6,11,7,9
+Q18,"""Was data collection randomized? Could it be biased in any way?""",3,2,11,14,10
+Q19,"""Is there anything about dataset preprocessing/cleaning that could impact future uses?""",4,4,10,10,7
+Q20,"""What is the dataset’s release date?""",11,4,9,3,7
+Q21,"""Is there an expiration date for this dataset?""",18,8,6,5,3
+Q22,"""How often will the dataset be updated?""",7,3,12,8,10
+Q23,"""When was the data last modified?""",15,10,4,7,5
+Q24,"""How easy is it to download and explore this dataset?""",4,4,14,9,9
+Q25,"""What is the format of the dataset, and what type of repository is the dataset located in?""",9,10,5,5,7
+Q26,"""What is the provenance of this dataset?""",3,7,5,6,13
+Q27,"""What other datasets exist in this repository that are related to this dataset?""",3,5,12,8,12

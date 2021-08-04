@@ -1,0 +1,170 @@
+---
+title: "Statistical Tests on the Mental Model Difficulty Ratings"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Required Packages
+```{r}
+library(ggplot2)
+library(haven)
+library(easyGgplot2)
+library(tidyr)
+library(coin)
+```
+
+## Extracting Mental Models
+```{r}
+ourdf <- read.csv('our_mmq_ratings.csv')
+ourdf <- ourdf[, -which(names(ourdf) == "Question.Text")]
+ourdf <- ourdf[, -which(names(ourdf) == "Question.Number")]
+
+gcsdf <- read.csv('gcs_mmq_ratings.csv')
+gcsdf <- gcsdf[, -which(names(gcsdf) == "Question.Text")]
+gcsdf <- gcsdf[, -which(names(gcsdf) == "Question.Number")]
+
+dhdf <- read.csv('datahub_mmq_ratings.csv')
+dhdf <- dhdf[, -which(names(dhdf) == "Question.Text")]
+dhdf <- dhdf[, -which(names(dhdf) == "Question.Number")]
+```
+
+## Carrying out the Mann-Whitney U Test
+```{r}
+our_wilcox_tests <- function(n){
+  our_n <- as.numeric(ourdf[n,])
+  gcs_n <- as.numeric(gcsdf[n,])
+  datahub_n <- as.numeric(dhdf[n,])
+  
+  our_vals <- c()
+  gcs_vals <- c()
+  datahub_vals <- c()
+  for (i in 1:5){
+    our_times <- our_n[i]
+    our_vals <- append(our_vals, rep(i, our_times)); our_vals
+    gcs_times <- gcs_n[i]
+    gcs_vals <- append(gcs_vals, rep(i, gcs_times)); gcs_vals
+    datahub_times <- datahub_n[i]
+    datahub_vals <- append(datahub_vals, rep(i, datahub_times)); datahub_vals
+  }
+  #One-Sided Mann-Whitney U Significance Test for Whether our Median is Less
+  #than that of the other mental model's
+  w1 <- wilcox.test(our_vals, gcs_vals, alternative = "less")
+  w2 <- wilcox.test(our_vals, datahub_vals, alternative = "less")
+  
+  print("Our KR vs GCS KR")
+  print(w1)
+  print("Our KR vs Datahub KR")
+  print(w2)
+}
+```
+
+```{r}
+our_wilcox_tests(1)
+```
+
+```{r}
+our_wilcox_tests(2)
+```
+
+```{r}
+our_wilcox_tests(3)
+```
+
+```{r}
+our_wilcox_tests(4)
+```
+
+```{r}
+our_wilcox_tests(5)
+```
+
+```{r}
+our_wilcox_tests(6)
+```
+
+```{r}
+our_wilcox_tests(7)
+```
+
+```{r}
+our_wilcox_tests(8)
+```
+
+```{r}
+our_wilcox_tests(9)
+```
+
+```{r}
+our_wilcox_tests(10)
+```
+
+```{r}
+our_wilcox_tests(11)
+```
+
+```{r}
+our_wilcox_tests(12)
+```
+
+```{r}
+our_wilcox_tests(13)
+```
+
+```{r}
+our_wilcox_tests(14)
+```
+
+```{r}
+our_wilcox_tests(15)
+```
+
+```{r}
+our_wilcox_tests(16)
+```
+
+```{r}
+our_wilcox_tests(17)
+```
+
+```{r}
+our_wilcox_tests(18)
+```
+
+```{r}
+our_wilcox_tests(19)
+```
+
+```{r}
+our_wilcox_tests(20)
+```
+
+```{r}
+our_wilcox_tests(21)
+```
+
+```{r}
+our_wilcox_tests(22)
+```
+
+```{r}
+our_wilcox_tests(23)
+```
+
+```{r}
+our_wilcox_tests(24)
+```
+
+```{r}
+our_wilcox_tests(25)
+```
+
+```{r}
+our_wilcox_tests(26)
+```
+
+```{r}
+our_wilcox_tests(27)
+```
