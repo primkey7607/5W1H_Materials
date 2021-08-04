@@ -54,9 +54,9 @@ our_wilcox_tests <- function(n){
   w1 <- wilcox.test(our_vals, gcs_vals, alternative = "less")
   w2 <- wilcox.test(our_vals, datahub_vals, alternative = "less")
   
-  print("Our KR vs GCS KR")
+  print("Our MM vs GCS MM")
   print(w1)
-  print("Our KR vs Datahub KR")
+  print("Our MM vs Datahub MM")
   print(w2)
 }
 ```
