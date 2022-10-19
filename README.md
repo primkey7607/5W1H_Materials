@@ -7,4 +7,4 @@ Specifically, we provide all materials that can be used to understand and genera
 We include a pdf with the survey text in the SurveyLanguage/ directory of this repository, where we explain the survey that was shown to participants in Section IV-A and IV-B of our paper. To avoid spurious survey responses and mitigate threats to validity, we made specific choices with regards to the language and flow of the survey, which we explain in this directory.
 
 ## [Frequency Distributions](https://github.com/primkey7607/5W1H_Materials/tree/main/FrequencyDistributions)
-This directory contains all our data and code used to generate the consistency and ease-of-understanding results in Section IV-A and IV-B. Concretely, it contains the data and code that generates the values for Tables III through VI in our paper.
+This directory contains all our data and code used to generate the consistency and ease-of-understanding results in Section IV-C. Concretely, it contains the data and code that generates the values for Tables III through VI in our paper.
