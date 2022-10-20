@@ -142,7 +142,7 @@ def make_norm_ent_row(kr_name, krdict):
         
         
 #Generate the Normalized Entropies shown in Table 6
-def genTable6NormalizedEntropies():
+def genTable4NormalizedEntropies():
     ourname = 'our_mmq_counts.csv'
     gcsname = 'gcs_mmq_counts.csv'
     dhname = 'datahub_mmq_counts.csv'
@@ -175,7 +175,7 @@ def genTable6NormalizedEntropies():
     print(rows)
     
     restable = tabulate.tabulate(rows, headers='firstrow', tablefmt='latex')
-    with open('table6normentropies.txt', 'w+') as fh:
+    with open('table4normentropies.txt', 'w+') as fh:
         fh.write(restable)
 
 #genTable6NormalizedEntropies()
@@ -218,7 +218,7 @@ def make_noneprop_row(kr_name, krdict):
     
     return new_row
 
-def genTable4NonePropsTable():
+def genTable5NonePropsTable():
     ourname = 'our_mmq_counts.csv'
     gcsname = 'gcs_mmq_counts.csv'
     dhname = 'datahub_mmq_counts.csv'
@@ -248,7 +248,7 @@ def genTable4NonePropsTable():
     rows.append(dh_row)
     
     restable = tabulate.tabulate(rows, headers='firstrow', tablefmt='latex')
-    with open('table4noneproptable.txt', 'w+') as fh:
+    with open('table5noneproptable.txt', 'w+') as fh:
         fh.write(restable)
 
 #genTable4NonePropsTable()

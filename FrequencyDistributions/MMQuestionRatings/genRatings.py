@@ -39,7 +39,7 @@ def make_median_row(kr_name, krdict):
     
     return new_row
 
-def genTable5Medians():
+def genTable6Medians():
     ourname = 'our_mmq_ratings.csv'
     gcsname = 'gcs_mmq_ratings.csv'
     dhname = 'datahub_mmq_ratings.csv'
@@ -63,7 +63,7 @@ def genTable5Medians():
     rows.append(dh_row)
     
     restable = tabulate.tabulate(rows, headers='firstrow', tablefmt='latex')
-    with open('table5medians.txt', 'w+') as fh:
+    with open('table6medians.txt', 'w+') as fh:
         fh.write(restable)
         
 #genTable5Medians()
